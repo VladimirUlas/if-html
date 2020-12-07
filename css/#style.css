@@ -21,7 +21,18 @@ margin-bottom: 20px;
     height: 4px;
     margin: 0 auto;
     background:  #F5BD41;
-    ;
+    margin-bottom: 80px;
+}
+
+.offer-list {
+    display: flex;
+}
+
+.img-wrapper {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
 }
 
 .text-centr {
