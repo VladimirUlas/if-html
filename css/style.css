@@ -1,41 +1,43 @@
-*{
+@import url(fonts.css);
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 .container {
-    max-width: 1232;
+    max-width: 1232px;
     margin: 0 auto;
     padding: 120px 0px;
     width: 100%;
 }
 
-.offers-title{
+.offers-title {
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-.title-underline{
+.title-underline {
     border: none;
     width: 100px;
     height: 4px;
     background: #F5BD41;
     margin: 0 auto;
     margin-bottom: 80px;
-
 }
 
-.offers-list{
-display: flex;
+.offers-list {
+    display: flex;
 }
 
-.item{
+.item {
     width: 25%;
-    text-align: center; 
+    text-align: center;
 }
 
-.img-wraper{
+.img-wraper {
     width: 100px;
     height: 100px;
     margin: 0 auto;
@@ -45,14 +47,38 @@ display: flex;
     margin-bottom: 48px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.item{
+.item {
     text-align: center;
-    font-size: 24px;
-    line-height: 28px;; 
-
+    font-size: 20px;
+    line-height: 23px;
+    ;
 }
 
+.footer {
+    background-color: rgba(16, 54, 124, 1);
+    color: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-links {
+    margin-bottom: 24px;
+}
+
+.footer-signature {
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+}
