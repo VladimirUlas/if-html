@@ -10,7 +10,7 @@
 
 
 <body>
-    <!---<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error dolor natus totam perspiciatis at, beatae
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error dolor natus totam perspiciatis at, beatae
         <br>dolorem facere corporis consectetur nulla, ab ea assumenda libero<br> perferendis similique repellendus
         expedita porro officiis!
     </p>
@@ -98,23 +98,72 @@
             <td>Defines a table caption</td>
             </tr>
         </tfoot>
-
-
     </table>
     <br>
     <br>
-    <br>--->
-    <form>
-        <label for="username">Username</label>
-        <imput type="text" name="username" id="username" />
-        <br>
-        <label for="data">data</label>
-        <imput type="text" name="data" id="data" />
-        <br>
-        <label for="email">Email</label>
-        <imput type="email" name="email" id="email"></imput>
-    </form>
 
+    <fieldset>
+        <legend>Данные домашней работы</legend>
+        <form>
+            <label for="username">Name</label>
+            <input type="text" name="username" id="username" />
+            <br>
+            <br> <br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"></imput>
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="text" name="Pass_word" id="password" />
+            <br>
+            <br>
+
+        </form>
+
+        <form>
+            <span>
+                <h3>You programmig livel</h3>
+            </span>
+
+
+            <input type="range" id="a" name="a" value="50">
+            <br>
+            <br>
+            <h3>What does HTML stand for</h3>
+        </form>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1">
+        <label for="vehicle1"> Hyper Text Markup Langvuege</label><br>
+        <input type="checkbox" name="vehicle2" id="vehicle2">
+        <label for="vehicle2">Hyperlinks and text Markup Language</label><br>
+        <input type="checkbox" name="vehicle3" id="vehicle3">
+        <label for="vehicle3">Home Tool Markup Landuage</label>
+        <br>
+
+        <h3>What does HTTP stand for</h3>
+        <br>
+        <input type="radio" id="text" name="gender" value="text">
+        <label for="text">Hoper Text Translate Protocol</label><br>
+        <input type="radio" id="text2" name="gender" value="text2">
+        <label for="text2">Hoper Text Transmission Protocol</label><br>
+        <input type="radio" id="text3" name="gender" value="text3">
+        <label for="text3">Hoper Text Transfer Protocol</label>
+        <br>
+        <h4>Comment</h4>
+        <textarea maxlength="500">Comment</textarea>
+        <br>
+        <h3>What does HTML stand for</h3>
+
+        <form>
+            <select id="world" name="world">
+                <option value="text">Hyper Text Markup Langvuege</option>
+                <option value="text2">Hyperlinks and text Markup Language</option>
+                <option value="text3">Home Tool Markup Landuage</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Sent">
+        </form>
+    </fieldset>
 </body>
 
 </html>
