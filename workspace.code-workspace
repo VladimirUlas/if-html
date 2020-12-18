@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "if-html",
+			"path": "."
+		},
+		{
+			"name": "фото для 4 урока",
+			"path": "..\\..\\фото для 4 урока"
+		},
+		{
+			"name": "image",
+			"path": "Home work 4\\image"
+		},
+		{
+			"path": "image"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "if-html"
+	}
+}
