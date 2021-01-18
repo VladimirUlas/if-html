@@ -1,86 +1,92 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto-Regular.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    src: url("../fonts/Roboto-Medium.woff2") format("woff2");
-    font-family: "Roboto";
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-   {
-    font-family: "Roboto", sans-serif;
-    box-sizing: border-box;
-  }
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
 
-  *,*::before,*::after{
-    box-sizing:inherit ;
-  }
+@font-face {
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2");
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+}
 
-  .header {
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 900px;
-    background-image: url(../images/Image.png);
-    
-    
-  }
- 
-  .container{
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+body {
+  font-family: 'Roboto';
+  margin: 0;
+}
 
-  .header_container{
-    display: flex;
-    justify-content: space-between;
-   
-  }
+.container {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding-left: 104px;
+  padding-right: 104px;
+}
 
-  /*nav*/
-  .nav{
-font-size: 16px;
-display: inline;
-vertical-align: top;
-margin: 0 10px;
-  }
+/*header*/
 
-  .stays{
-    margin-left: auto;
-  }
+.header {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+  background-image: url(../images/Image.png);
+}
 
-  .title-underline{
-    border: none;
-    width: 40px;
-    height: 2px;
-    background: #F5BD41;
-    margin: 0 auto;
-    margin-bottom: 80px;
-    margin-left: 0;
-  }
-  .nav_link{
-    color: #ffffff;
-    text-decoration: none;
-    transition: color .2s;
-  }
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 51px;
+  padding-bottom: 202px;
+}
 
- .h2{
-   color: white;
- }
+.nav_menu {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
 
-  }
- 
-  
+.nav_link {
+  margin-left: 10px;
+  color: #ffffff;
+  margin-right: 0;
+}
 
+.intro-title {
+  display: flex;
+  color: #ffffff;
+  height: 118px;
+  width: 542px;
+  left: 104px;
+  top: 293px;
+}
 
-  
+.form_descr {
+  display: flex;
+  color: #ffffff;
+  ;
+}
 
+.form_descr>p {
+  margin-right: 221px;
+}
 
+.search_descr {
+  font-size: 12px;
+  line-height: 21px;
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
 
+.input_botton {
+  display: flex;
+  margin-left: 104px;
+}
 
-
-
+.apps {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
