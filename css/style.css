@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2");
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+}
+
+container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 120px 0px;
+  width: 100%;
+}
+
+.offers-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.title-underline {
+  border: none;
+  width: 100px;
+  height: 4px;
+  background: #F5BD41;
+  margin: 0 auto;
+  margin-bottom: 87px;
+}
+
+.offers-list {
+  display: flex;
+  height: 223px;
+}
+
+.item {
+  width: 100%;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+  display: flex;
+  font-size: 20px;
+  line-height: 23px;
+  justify-content: space-around;
+  padding-bottom: 122px;
+}
+
+.footer {
+  background-color: rgba(16, 54, 124, 1);
+  color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-links {
+  margin-bottom: 24px;
+  color: #ffffff;
+  padding-left: 104px;
+}
+
+.footer-signature {
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.svg-sprite {
+  display: flex;
+  width: 0px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.icon {
+  fill: #3077C6;
+}
+
+.support {
+  width: 267px;
+  height: 100px;
+  padding-left: 31px
+}
+
+.communicate {
+  width: 346px;
+  height: 100px;
+  padding-left: 222px;
+  margin-top: 6px;
+}
+
+.book_online {
+  width: 246px;
+  height: 106px;
+  padding-left: 222px;
+  padding-right: 221px;
+}
+
+.like {
+  width: 247px;
+  height: 99px;
+  padding-right: 144px;
+}
