@@ -12,10 +12,10 @@
   font-style: normal;
 }
 
-container {
-  max-width: 1440px;
+.container {
+  max-width: 1232px;
   margin: 0 auto;
-  padding: 120px 0px;
+  padding: 122px 0px;
   width: 100%;
 }
 
@@ -33,9 +33,18 @@ container {
   margin-bottom: 87px;
 }
 
+.icon_wrap {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  width: 296px;
+  height: 176px;
+}
+
 .offers-list {
   display: flex;
-  height: 223px;
+  height: 148px;
+  justify-content: space-around;
 }
 
 .item {
@@ -48,12 +57,10 @@ container {
 }
 
 .item {
-  text-align: center;
   display: flex;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 23px;
   justify-content: space-around;
-  padding-bottom: 122px;
 }
 
 .footer {
@@ -72,7 +79,17 @@ ul {
   padding-left: 0;
 }
 
-.footer-links {
+.footer-title {
+  color: #ffffff;
+  padding-left: 104px;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-item {
   margin-bottom: 24px;
   color: #ffffff;
   padding-left: 104px;
@@ -96,27 +113,23 @@ ul {
 }
 
 .support {
-  width: 267px;
-  height: 100px;
-  padding-left: 31px
+  width: 75px;
+  height: 91px;
 }
 
 .communicate {
-  width: 346px;
-  height: 100px;
-  padding-left: 222px;
-  margin-top: 6px;
+  width: 83px;
+  height: 83px;
+  padding-top: 8px
 }
 
 .book_online {
-  width: 246px;
-  height: 106px;
-  padding-left: 222px;
-  padding-right: 221px;
+  width: 100px;
+  height: 67px;
+  padding-top: 16px;
 }
 
 .like {
-  width: 247px;
-  height: 99px;
-  padding-right: 144px;
+  width: 91px;
+  height: 83px;
 }
