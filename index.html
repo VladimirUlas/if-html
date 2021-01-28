@@ -2,87 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home work</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="offers">
-        <div class="container">
-            <h2 class="offers-title text-center"> What do we offers</h2>
-            <hr class="title-underline">
-            <div class="offers-list">
-                <div class="item">
-                    <div class="img-wraper">
-                        <img src="./image/support.svg" alt="Support 24/7">
-                    </div>
-                    <spam class="item-text">Support 24/7</spam>
-                </div>
-                <div class="item">
-                    <div class="img-wraper">
-                        <img src="./image/communikate.svg" alt="Support 24/7">
-                    </div>
-                    <spam class="item-text">Communicate directly</spam>
-                </div>
-                <div class="item">
-                    <div class="img-wraper">
-                        <img src="./image/book.svg" alt="Support 24/7">
-                    </div>
-                    <spam class="item-text">Book online</spam>
-                </div>
-                <div class="item">
-                    <div class="img-wraper">
-                        <img src="./image/like.svg" alt="Support 24/7">
-                    </div>
-                    <spam class="item-text">Real guest reviews</spam>
-                </div>
-            </div>
+  <div class="svg-sprite">
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <symbol id="night" viewBox="0 0 30 30">
+        <path
+          d="M25.6101 10.6101V4.38992H19.3899L15 0L10.6101 4.38992H4.38992V10.6101L0 15L4.38992 19.3899V25.6101H10.6101L15 30L19.3899 25.6101H25.6101V19.3899L30 15L25.6101 10.6101ZM15 22.9576C13.8196 22.9576 12.6923 22.6923 11.6844 22.2281C14.4164 20.9682 16.3263 18.2096 16.3263 15C16.3263 11.7905 14.4164 9.03183 11.6844 7.77188C12.6923 7.30769 13.8196 7.04244 15 7.04244C19.3899 7.04244 22.9576 10.6101 22.9576 15C22.9576 19.3899 19.3899 22.9576 15 22.9576Z"
+          fill="white" />
+      </symbol>
+    </svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <symbol id="accircle" viewBox="0 0 40 40">
+        <path
+          d="M20 0C8.96 0 0 8.96 0 20C0 31.04 8.96 40 20 40C31.04 40 40 31.04 40 20C40 8.96 31.04 0 20 0ZM20 6C23.32 6 26 8.68 26 12C26 15.32 23.32 18 20 18C16.68 18 14 15.32 14 12C14 8.68 16.68 6 20 6ZM20 34.4C15 34.4 10.58 31.84 8 27.96C8.06 23.98 16 21.8 20 21.8C23.98 21.8 31.94 23.98 32 27.96C29.42 31.84 25 34.4 20 34.4Z"
+          fill="white" />
+      </symbol>
+    </svg>
+
+
+  </div>
+  <header>
+    <div class="header">
+      <div class="container">
+        <div class="header_wrap">
+          <div class="header_logo">
+            <img src="./images/logo_vector.png" alt="logo_vector">
+          </div>
+
+          <nav class="nav">
+            <a href="#" class="nav_item">Stays</a>
+            <a href="#" class="nav_item">Attraction</a>
+            <svg class="night">
+              <use href="#night" />
+            </svg>
+
+            <svg class="accircle">
+              <use href="#accircle" />
+            </svg>
+
+          </nav>
+
+
         </div>
+        <div>
+          <h2 class="intro-title">Discover stays<br> to live,work orjust relax</h2>
+        </div>
+        <div class="form_descr">
+          <p class="search_descr">Your destination or hotel name</p>
+          <p class="search_descr">Check-in — Check-out</p>
+        </div>
+
+        <div class="form">
+          <input placeholder="New York" type="text" name="Hotel" id="Hotel" class="Hotel">
+          <input placeholder="Tue 15 Sept-Sat 19 Sept" type="text" name="Check-in—Check-out" id="Check-in—Check-out"
+            class="Check-in—Check-out">
+          <input placeholder="2 Adults—0 Children — 1 Room" type="text" name="2 Adults — 0 Children — 1 Room"
+            id="Adults—0Children—1Room" class="Adults—0Children—1Room">
+          <button class="btn">Search</button>
+        </div>
+        <div class="apps">
+          <img src="./images/google-play 1.jpg" class="apps__img " alt="google play">
+          <img src="./images/App store 1.jpg" alt="apple story">
+        </div>
+      </div>
     </div>
-    <div class="footer">
-        <div class="container">
-            <div>
-                <div class="footer-content">
-                    <div>
-                        <h3 class="footer-links">About</h3>
-                        <ul>
-                            <li class="footer-links"><a href="How Triphouse works">How Triphouse works</a></li>
-                            <li class="footer-links"><a href="Guest houses">Guest houses</a></li>
-                            <li class="footer-links"><a href="Privacy">Privacy</a></li>
-                            <li class="footer-links"><a href="Terms">Terms</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="footer-links">Property types</h3>
-                        <ul>
-                            <li class="footer-links"><a href="Guest houses">Guest houses</a></li>
-                            <li class="footer-links"><a href="Careers">Careers</a></li>
-                            <li class="footer-links"><a href="Apartments">Apartments</a></li>
-                            <li class="footer-links"><a href="Villas">Villas</a></li>
-                            <li class="footer-links"><a href="Hostels">Hostels</a></li>
-                            <li class="footer-links"><a href="Terms">Terms</li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="footer-links">Support</h3>
-            <ul>
-              <li class="footer-links"><a href="Contact Customer Service">Contact Customer Service</a></li>
-                            <li class="footer-links"><a href="FAQ">FAQ</li>
-            </ul>
-          </div>
-        </div>
-        <p class="footer-signature">© 2020 Triphouse, Inc. All rights reserved</p>
-        <!---<a href="#">link</a>--->
-                    </div>
-
-
-                </div>
-            </div>
+  </header>
 </body>
 
 </html>
